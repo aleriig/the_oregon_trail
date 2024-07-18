@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+  <audio id="backgroundMusic" autoplay>
+    <source src="./src/audio/Voicy_The Oregon Trail Main theme music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   <div class="container">
     <div class="sidebar">
         <button class="button">GAME HISTORY</button>
@@ -26,9 +30,12 @@
         <button class="button">TRAVEL THE TRAIL</button>
         <button class="button">LEARN ABOUT THE TRAIL</button>
         <button class="button">OREGON TOP-10</button>
-        <button class="button">TURN SOUND OFF</button>
+        <button id="sound-button" class="button">TURN SOUND ON/OFF</button>
         <button class="button">CREDITS</button>
     </div>
 </div>
 </body>
+
+<script src="app.js"></script>
+
 </html>
