@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Oregon Trail</title>
-  <link rel="stylesheet" href="./src/styles.css">
+  <link rel="stylesheet" href="./static/styles.css">
+  <link rel="stylesheet" href="./static/header.css">
+  <link rel="stylesheet" href="./static/game-history.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body>
-  <audio id="backgroundMusic" autoplay>
+<body id="home">
+  <!-- <audio id="backgroundMusic" autoplay>
     <source src="./src/audio/Voicy_The Oregon Trail Main theme music.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
-  </audio>
+  </audio> -->
   <div class="container">
     <div class="sidebar">
-        <button class="button">GAME HISTORY</button>
+        <button class="button">
+          <a href="#game-history">Game history</a>
+        </button>
         <button class="button">TUTORIAL</button>
         <button class="button">SETTINGS</button>
     </div>
@@ -33,7 +37,31 @@
         <button id="sound-button" class="button">TURN SOUND ON</button>
         <button class="button">CREDITS</button>
     </div>
-</div>
+  </div>
+<!-- <div id="content"></div> -->
+  <div id="game-history">
+    <header>
+      <a href="#home">
+        <h2>BACK TO MENU</h2>
+      </a>
+      <h1>THE OREGON TRAIL</h1>
+    </header>
+  
+    <div class="container">
+      <div>
+        <h3>The Oregon Trail: A Epic Journey Westward</h3>
+        <p>
+          In the early 1800s, a significant wave of settlers was drawn to the West Coast’s Oregon Country. Lured by the promise of fertile lands, abundant game, and a chance for a better life, they set out on the Oregon Trail.
+        </p>
+        <p>
+          The journey to a better future began in Independence, Missouri, and stretched over vast plains, arid deserts, and rugged mountain passes, covering a distance well exceeding 2,000 miles.
+        </p>
+        <p>
+          The pioneers had their eyes on the rich Willamette Valley in Oregon, where dreams of prosperity awaited.
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 
 <script src="app.js"></script>
