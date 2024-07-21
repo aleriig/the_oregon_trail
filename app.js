@@ -9,7 +9,7 @@ soundButton.addEventListener('click', () => {
         audio.pause();
         soundButton.textContent = 'TURN SOUND ON';
     }
-    // soundButton.style.display = 'click';
+    // soundButton.style.display = 'pointer';
 });
 
 
