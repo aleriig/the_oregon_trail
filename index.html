@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./static/styles.css">
   <link rel="stylesheet" href="./static/header.css">
   <link rel="stylesheet" href="./static/game-history.css">
+  <link rel="stylesheet" href="./static/settings.css">
+  <link rel="icon" type="image/x-icon" href="/./img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -19,10 +21,12 @@
   <div class="container">
     <div class="sidebar">
         <button class="button">
-          <a href="#game-history">Game history</a>
+          <a href="#game-history">GAME HISTORY</a>
         </button>
         <button class="button">TUTORIAL</button>
-        <button class="button">SETTINGS</button>
+        <button class="button">
+          <a href="#settings">SETTINGS</a>
+        </button>
     </div>
     <div class="main-content">
         <h1 class="title">THE OREGON TRAIL</h1>
@@ -86,6 +90,25 @@
       </p>
     </div>
   </div>
+  <div id="settings">
+    <header>
+      <a href="#home">
+        <h2>BACK TO MENU</h2>
+      </a>
+      <h1>THE OREGON TRAIL</h1>
+    </header>
+    <div class="container-settings">
+      <div class="button-settings">
+        <buttons class="button">SEE CURRENT TOP-10</buttons>
+        <buttons class="button">ERASE TOP-10</buttons>
+        <buttons class="button">ERASE TOMBSTONE MESSAGES</buttons>
+        <buttons class="button">ERASE SAVED GAMES</buttons>
+        <buttons class="button">TURN JOYSTICK ON</buttons>
+        <buttons class="button">CALIBRATE JOYSTICK</buttons>
+      </div>
+    </div>
+
+
 </body>
 
 <script src="app.js"></script>
