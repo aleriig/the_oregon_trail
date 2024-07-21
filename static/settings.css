@@ -1,0 +1,11 @@
+div .container-settings {
+    background-color: #661E26;
+}
+
+div .container-settings > .button-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}

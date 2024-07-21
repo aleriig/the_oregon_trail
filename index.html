@@ -31,7 +31,6 @@
     <div class="main-content">
         <h1 class="title">THE OREGON TRAIL</h1>
         <button class="play-button">PLAY</button>
-        <!-- <img src="./src/img/emigrants_crossing_the_plains_or_the_oregon_trail_albert_bierstadt_1869.webp" alt="emigrants crossing the Wild West plains"> -->
     </div>
     <div class="sidebar">
         <h2>MENU</h2>
@@ -42,7 +41,7 @@
         <button class="button">CREDITS</button>
     </div>
   </div>
-<!-- <div id="content"></div> -->
+<!-- GAME HISTORY -->
   <div id="game-history">
     <header>
       <a href="#home">
@@ -90,25 +89,35 @@
       </p>
     </div>
   </div>
+
+  <!-- SETTINGS -->
   <div id="settings">
-    <header>
-      <a href="#home">
-        <h2>BACK TO MENU</h2>
-      </a>
-      <h1>THE OREGON TRAIL</h1>
-    </header>
     <div class="container-settings">
+      <header>
+        <a href="#home">
+          <h2>BACK TO MENU</h2>
+        </a>
+        <h1>THE OREGON TRAIL</h1>
+      </header>
       <div class="button-settings">
-        <buttons class="button">SEE CURRENT TOP-10</buttons>
-        <buttons class="button">ERASE TOP-10</buttons>
-        <buttons class="button">ERASE TOMBSTONE MESSAGES</buttons>
-        <buttons class="button">ERASE SAVED GAMES</buttons>
-        <buttons class="button">TURN JOYSTICK ON</buttons>
-        <buttons class="button">CALIBRATE JOYSTICK</buttons>
+        <div class="group">
+          <button class="button">
+            SEE CURRENT TOP-10
+          </button>
+          <button class="button">
+            ERASE TOP-10
+          </button>
+          <button class="button">
+            ERASE TOMBSTONE MESSAGES
+          </button>
+        </div>
+        <div class="group">
+          <button class="button">ERASE SAVED GAMES</button>
+          <button class="button">TURN JOYSTICK ON</button>
+          <button class="button">CALIBRATE JOYSTICK</button>
+        </div>
       </div>
-    </div>
-
-
+  </div>
 </body>
 
 <script src="app.js"></script>
