@@ -1,0 +1,21 @@
+.container-credits {
+    background-color: black;
+}
+
+.container-credits p {
+    background-color: black;
+    color: white;
+}
+
+.credit-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    margin-top: 250px;
+}
+
+.credit-table img {
+    width: 30%;
+    margin-bottom: 75px;
+}
