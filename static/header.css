@@ -1,14 +1,10 @@
 .container > #game-history {
     background-color: #F4E8DC;
-    /* height: 200px; */
     width: auto;
 }
 
 div > header {
     background-color: #F4E8DC;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     height: 200px;
     width: auto;
     margin-left: 0px;
@@ -27,7 +23,6 @@ div > header > a > h2 {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    
     background-color: #CD5757;
     padding: 15px;
     width: 150px;
