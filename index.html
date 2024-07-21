@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./static/styles.css">
   <link rel="stylesheet" href="./static/header.css">
   <link rel="stylesheet" href="./static/game-history.css">
+  <link rel="stylesheet" href="./static/learn-trail.css">
   <link rel="stylesheet" href="./static/settings.css">
   <link rel="icon" type="image/x-icon" href="/./img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +36,13 @@
     <div class="sidebar">
         <h2>MENU</h2>
         <button class="button">TRAVEL THE TRAIL</button>
-        <button class="button">LEARN ABOUT THE TRAIL</button>
-        <button class="button">OREGON TOP-10</button>
+        <button class="button">
+          <a href="#learn-trail">LEARN ABOUT THE TRAIL</a>
+        </button>
+        <button class="button">
+          
+          OREGON TOP-10
+        </button>
         <button id="sound-button" class="button">TURN SOUND ON</button>
         <button class="button">CREDITS</button>
     </div>
@@ -97,7 +103,7 @@
         <a href="#home">
           <h2>BACK TO MENU</h2>
         </a>
-        <h1>THE OREGON TRAIL</h1>
+        <h1>SETTINGS</h1>
       </header>
       <div class="button-settings">
         <div class="group">
@@ -115,6 +121,51 @@
           <button class="button">ERASE SAVED GAMES</button>
           <button class="button">TURN JOYSTICK ON</button>
           <button class="button">CALIBRATE JOYSTICK</button>
+        </div>
+      </div>
+
+      <!-- LEARN THE TRAIL -->
+      <div id="learn-trail">
+        <div class="container-learn">
+          <header>
+            <a href="#home">
+              <h2>BACK TO MENU</h2>
+            </a>
+            <h1>ABOUT THE TRAIL</h1>
+          </header>
+          <div class="learn-hint">
+            <p class="hints first">
+              Try taking a journey by covered wagon across 2000 miles of plains, rivers and mountains. <br>Try! On the plains will you slosh your oxen through mud and water-filled ruts or will you plod through dust six inches deep?
+              <img src="./img/start_game.png" alt="independence-1848">
+            </p>
+            <p class="hints second">
+              How will you cross the rivers?<br>If you have money, you might take a ferry (if there is a ferry)<br>Or, you cand ford the river and hope you and your wagon aren't swallowed alive!
+              <img src="./img/crossing_river.png" alt="a-wagon-crossing-a-river">
+            </p>
+            <p class="hints third">
+              What about supplies?<br>Well, if you are low on food you can hunt.<br>You might get a buffalo...you might. And there are bears in the mountains.
+              <img src="./img/hunt.png" alt="info-hunting">
+            </p>
+            <p class="hints fourth">
+              "At the Dalles, you can try navigating the Columbia River,<br>but if running the rapids with a makeshift raft makes you queasy,<br>better take the Barlow Road"
+              <img src="./img/columbia_river.png" alt="choice-river-or-road">
+            </p>
+            <p class="hints fifth">If for some reason you don't survive-- <br>Your wagon burns, or thieves steal your oxen, or you run out of provisions, or you die of cholera -- <br>Don't give up!<br>Try again... and again... until your name is up with the others on The Oregon Top-10. <br>
+              <img src="./img/oregon.png" alt="you-arrive-to-oregon">
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- OREGON TOP-10 -->
+      <div id="oregon">
+        <div class="container-oregon">
+          <header>
+            <a href="#home">
+              <h2>BACK TO MENU</h2>
+            </a>
+            <h1>OREGON TOP-10</h1>
+          </header>
+
         </div>
       </div>
   </div>

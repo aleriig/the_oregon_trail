@@ -1,0 +1,68 @@
+
+.learn-hint {
+    display: grid;
+    justify-content: center;
+    /* colocating different columns */
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 600px 600px;
+    row-gap: 30px;
+    column-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p.hints {
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: auto;
+    padding: 15px;
+}
+
+p.hints.first {
+    margin-left: 30px;
+}
+
+p.hints.first img {
+    width: 60%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+p.hints.second img {
+    width: 60%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+p.hints.third img {
+    width: 60%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+p.hints.fourth {
+    margin-left: 300px;
+}
+
+p.hints.fourth img {
+    width: 60%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+p.hints.fifth {
+    margin-left: 300px;
+}
+
+p.hints.fifth img {
+    width: 60%;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
